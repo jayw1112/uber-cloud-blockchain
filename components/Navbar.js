@@ -7,12 +7,12 @@ import { UberContext } from '../context/uberContext'
 const style = {
   wrapper: `h-16 w-full bg-black text-white flex md:justify-around items-center px-60 fixed z-20`,
   leftMenu: `flex gap-3`,
-  logo: `text-3xl text-white flex cursor-pointer mr-16`,
+  logo: `text-3xl text-white hidden md:flex cursor-pointer mr-16`,
   menuItem: `text-lg text-white font-medium items-center mx-4 cursor-pointer hidden md:flex`,
   rightMenu: `flex gap-3 items-center`,
   userImageContainer: `mr-2`,
   userImage: `h-10 w-10 mr-4 rounded-full p-px object-cover cursor-pointer`,
-  loginButton: `items-center cursor-pointer rounded-full hover:bg-[#333333] px-4 py-1 hidden md:flex`,
+  loginButton: `items-center cursor-pointer rounded-full hover:bg-[#333333] px-4 py-1 flex`,
   loginText: `ml-2`,
 }
 
